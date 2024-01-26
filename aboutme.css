@@ -1,0 +1,97 @@
+body {
+    background: #71c7ec;
+}
+.aboutme {
+    margin-left: 3%;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5px;
+	background-color: #005073;
+	font-size: 20px;
+
+}
+
+nav h1 {
+	color: #fff;
+	margin-left: 40px;
+}
+
+.logo img {
+	width: 90px;
+	margin-left: 40px;
+	
+}
+
+nav ul {
+	width: 100%;
+	text-align: right;
+	list-style: none;
+	margin-right: 50px;
+	
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 15px 20px;
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+button {
+    text-align: right;
+  }
+
+h2 {	
+	color:#000;
+  }
+  aside {
+	color: #000;
+	font-size: 20px;
+	width: 30%;
+	float: left;
+  }
+  section {
+	color: #000;
+	font-size: 20px;
+	width: 10%;
+	float: left;
+    margin-left: 3%
+  }
+  section2 {
+	color: #000;
+	font-size: 20px;
+	float:left;
+	width: 80%;
+	margin-right: 800px;
+	padding: 10px;
+    
+  }
+  
+  @media screen and (max-width: 700px){
+	 aside, section, section2, button{
+	 width: 100;
+	 }
+  }
+  
+
+
+.image img {
+    width: 450px;
+    display: block;
+
+  }
+
+.image {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+
+}
